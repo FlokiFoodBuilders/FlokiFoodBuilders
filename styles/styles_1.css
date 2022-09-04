@@ -1,0 +1,78 @@
+body{
+    background-color: #000000; 
+    font-family: 'Caesar Dressing';
+}
+
+.introduction {
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.introduction a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.introduction img{
+    height: 40vh;
+    margin-top: 10%;
+}
+
+.introduction h1 {
+    font-size: 12vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.introduction h2 {
+    font-size: 7vh;
+    margin-top: -7;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 500px){
+    
+    body{
+        background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),url(../images/Background2.jpg); 
+        overflow: visible;
+        background-position: center center;
+        background-repeat: no-repeat;
+        font-family: 'Caesar Dressing';
+    }
+
+    .introduction {
+        text-align: center;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0%;
+        height: 100vh;
+    }
+
+    .introduction a{
+        text-decoration: none;
+    }
+
+    .introduction h1{
+        font-size: 12vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #ffffff;
+    }
+
+    .introduction h2{
+        font-size: 7vh;
+        margin-top: -7;
+        margin-bottom: 0;
+        color: #ffffff;
+    }
+
+    
+
+}
