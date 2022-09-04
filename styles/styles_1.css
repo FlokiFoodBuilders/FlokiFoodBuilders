@@ -1,6 +1,11 @@
 body{
-    background-color: #000000; 
     font-family: 'Caesar Dressing';
+    background: linear-gradient(rgba(1, 1, 2, 0.3), rgba(1, 1, 2, 0.3)),url(../images/background.gif);
+    background-repeat: no-repeat;
+    /* width: 100vh; */
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center;
 }
 
 .introduction {
@@ -40,9 +45,9 @@ body{
     
     body{
         background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),url(../images/Background2.jpg); 
-        overflow: visible;
-        background-position: center center;
+        background-position: center; 
         background-repeat: no-repeat;
+        background-size: cover;
         font-family: 'Caesar Dressing';
     }
 
@@ -53,6 +58,10 @@ body{
         justify-content: center;
         margin-top: 0%;
         height: 100vh;
+    }
+
+    .introduction img{
+        background-size: cover;
     }
 
     .introduction a{

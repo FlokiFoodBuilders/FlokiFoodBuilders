@@ -4,10 +4,10 @@
 }
 
 body{
-    background-color: #000000; 
-    height: 100%;
-    width: 100%;
-    position: fixed;
+    background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),
+        url(../images/wallpaperbetter.com_1920x1080.jpg); 
+    height: 100vh;
+    background-size: cover;
 }
 
 #header {
@@ -23,6 +23,7 @@ body{
 
 #header h2 {
     font-size: 10vh;
+    padding-top: 4vh ;
     color: #ffffff;
 }
 
@@ -61,7 +62,8 @@ height: 100%;
         background: linear-gradient(rgba(1, 1, 2, 0.7),rgba(1, 1, 2, 0.7)),url(../images/Background-1.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        /* background-attachment: fixed; */
+        background-size: cover;
+        height: 100vh;
     }
 
     #header {
@@ -70,19 +72,18 @@ height: 100%;
         text-align: center;
         justify-content: center;
         padding-top: 3vh;
-        width: 100%;
-        height: 10%; 
         /* background-color: black; */
     }
 
     #header h2{
         font-size: 12vh;
+        padding-top: 4vh;
         color: #ffffff;
     }
 
     #header img{
         height: 20vh; 
-        position: relative;
+        background-size: cover;
         /* background-color: rebeccapurple; */
     }
 
