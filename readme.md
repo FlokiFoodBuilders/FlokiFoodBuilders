@@ -1,3 +1,3 @@
 # Floki Food Builders
 
-https://github.com/FlokiFoodBuilders.github.io
+https://FlokiFoodBuilders.github.io
