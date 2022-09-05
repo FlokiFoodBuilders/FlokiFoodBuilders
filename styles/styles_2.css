@@ -1,7 +1,14 @@
-*{
-    font-family: 'Caesar Dressing';
-    flex-wrap: wrap;
+@font-face {
+    font-family: Vaoodu2rf;
+    src: url(../Fuente_Vaoodu2rf/vaudoo2RF.ttf)
 }
+
+*{
+    flex-wrap: wrap;
+    font-family: Vaoodu2rf;
+}
+
+
 
 body{
     background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),
@@ -72,8 +79,8 @@ height: 100%;
     }
 
     #header h2{
-        padding-top: 4vh;
-        font-size: 7vh;
+        padding-top: 6vh;
+        font-size: 6vh;
         color: #ffffff;
     }
 
