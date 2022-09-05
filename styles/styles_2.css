@@ -6,9 +6,8 @@
 *{
     flex-wrap: wrap;
     font-family: Vaoodu2rf;
+    -webkit-tap-highlight-color: transparent;
 }
-
-
 
 body{
     background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),
