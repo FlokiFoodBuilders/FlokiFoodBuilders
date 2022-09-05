@@ -1,6 +1,6 @@
 *{
     font-family: 'Caesar Dressing';
-    font-weight: 100 ;
+    flex-wrap: wrap;
 }
 
 body{
@@ -12,7 +12,6 @@ body{
 
 #header {
     display: flex;
-    position: static;
     text-align: center;
     padding-top: 3vh;
     width: 100%;
@@ -41,12 +40,12 @@ height: 100%;
 }
 
 #nav_conteiner ul {
-    position: relative;
     list-style-type: none;
 }
 
 #nav_conteiner li {
-    padding: 5vh 0;
+    
+    padding: 1vh 1vh;
     text-align: center;
     font-size: 7vh;
 }
@@ -68,21 +67,18 @@ height: 100%;
 
     #header {
         display: flex;
-        position: relative;
-        text-align: center;
         justify-content: center;
-        padding-top: 3vh;
         /* background-color: black; */
     }
 
     #header h2{
-        font-size: 12vh;
         padding-top: 4vh;
+        font-size: 7vh;
         color: #ffffff;
     }
 
     #header img{
-        height: 20vh; 
+        height: 15vh; 
         background-size: cover;
         /* background-color: rebeccapurple; */
     }
@@ -92,19 +88,19 @@ height: 100%;
     }
 
     #nav_conteiner ul{
-        position: relative;
         list-style-type:none; 
         color: #ffffff;
+        justify-items: center;
     }
 
     #nav_conteiner li{
         text-align: center;
-        font-size: 6vh;
         margin-top: 1vh;
     }
 
     #nav_conteiner a{
         text-decoration: none;
+        font-size: 5vh;
         color: #ffffff;
     }
 
