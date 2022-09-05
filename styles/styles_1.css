@@ -26,7 +26,7 @@ body{
     color: rgb(0, 0, 0);
 }
 
-#introduction_image{
+.introduction img{
     height: 40vh;
     margin-top: 10%;
 }
@@ -65,7 +65,7 @@ body{
         height: 100vh;
     }
 
-    #introduction_image{
+    .introduction img{
         max-height: 30%; 
         padding-bottom: 4vh;
     }
@@ -85,7 +85,7 @@ body{
         font-size: 5vh;
         margin-top: -7;
         margin-bottom: 0;
-        color: #cac8c8;
+        color: #ffffff;
     }
 
     
