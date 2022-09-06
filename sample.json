@@ -1,0 +1,122 @@
+{
+    "starter": {
+        "category": "picadas",
+        "description": "para 2 o 4 personas",
+        "options": [
+            "chorizo seco",
+            "pategras",
+            "roquefort",
+            "bondiola",
+            "crudo",
+            "mortadela",
+            "jamón cocido",
+            "tostados",
+            "berenjena en escabeche",
+            "pollo al escabeche",
+            "pinchos",
+            "aceitunas",
+            "papitas",
+            "maní"
+        ]
+    },
+    "mainCourse": [
+        {
+            "category": "pizzas",
+            "description": "",
+            "options": [
+                {
+                    "priority": 1,
+                    "name": "MUZZARELLA",
+                    "ingredients": [
+                        "mozarella",
+                        "aceitunas",
+                        "orégano"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "papas fritas con salsas",
+            "description": "",
+            "options": [
+                {
+                    "priority": 1,
+                    "name": "CHEDDAR",
+                    "ingredients": [
+                        "cheddar",
+                        "panceta" 
+                    ]
+                },
+                {
+                    "priority": 1,
+                    "name": "VERDEO",
+                    "ingredients": [
+                        "crema",
+                        "verdeo"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dessert": {
+        "category": "postres",
+        "description": "",
+        "options": [
+            {
+                "priority": 1,
+                "name": "IMPERIAL",
+                "annotation": ""
+            },
+            {
+                "priority": 2,
+                "name": "TORTA BOMBON",
+                "annotation": ""
+            },
+            {
+                "priority": 3,
+                "name": "FLAN",
+                "annotation": ""
+            },
+            {
+                "priority": 4,
+                "name": "PALITO BOMBON",
+                "annotation": ""
+            },
+            {
+                "priority": 5,
+                "name": "TRES GUSTOS",
+                "annotation": ""
+            },
+            {
+                "priority": 6,
+                "name": "TACITA",
+                "annotation": "consultar gustos"
+            }
+        ]
+    },
+    "drinks": {
+        "category": "tragos",
+        "description": "",
+        "options": [
+            "Mojito",
+            "Caipiroska",
+            "Destornillador",
+            "Gin tonic",
+            "Melón con speed",
+            "Frutilla con speed",
+            "Vodka con speed",
+            "Fernet",
+            "Gancia",
+            "Gancia batido",
+            "Campari",
+            "Whisky",
+            "Whiscola",
+            "Daikiri",
+            "Margarita",
+            "Tequila",
+            "Baileys",
+            "Baileys frozen",
+            "Piña colada frozen"
+        ]
+    }
+}
