@@ -1,0 +1,79 @@
+﻿PIZZAS:
+1-MUZZARELLA: mozarella, aceitunas, orégano
+2-ESPECIAL: mozarella, jamón cocido, aceitunas, morrón
+3-NAPOLITANA: mozarella, tomate fresco, aceitunas, orégano
+4-CALABRESA: mozarella, cantimpalo, aceitunas, morrón
+5-RUCULA: mozarella, rúcula, jamón crudo, sardo 
+6- ANCHOAS: mozarella, anchoas, morrón, aceitunas
+7- CUATRO QUESOS: mozarella, provolone (sardo?), roquefort, tybo, aceitunas, morrón
+8- FUGAZZETA: mozarella , cebolla, sardo, orégano
+9-BACON: mozarella, cheddar, panceta, huevos, morrón
+10- BARBACOA: mozarella, cebolla caramelizada, barbacoa, aceitunas, morrón
+
+
+
+
+PICADAS (PARA 2 O 4 PERSONAS): chorizo seco, pategras, roquefort, bondiola, crudo, mortadela, jamón cocido, tostados, berenjena en escabeche, pollo al escabeche, pinchos, aceitunas, papitas, maní
+
+
+HAMBURGUESAS /FRITAS
+1- CLASICA COMPLETA
+jamón cocido, queso, tomate, lechuga, huevo
+2-CRIOLLA
+jamón cocido, queso, tomate, lechuga, huevo, salsa criolla
+3-VIKINGA (triple medallón)
+cheddar, panceta, tomate, huevo
+4-BARBACOA
+cheddar, cebolla caramelizada, morrón, barbacoa
+
+
+MILANESAS DE RES AL PLATO /FRITAS
+2- NAPOLITANA: mozarella, jamón cocido, tomate
+3- CEBOLLA: mozarella, cebolla caramelizada, tomate cherry
+4- RÚCULA: mozarella, rúcula, sardo
+5- VERDEO: crema de verdeo, jamón crudo
+
+
+SANDWHICH/FRITAS
+1. BONDIOLA FLOKY: bondiola braseada, cebolla caramelizada, lechuga, mayo y barbacoa
+2. LOMITOS COMPLETOS: mozarella, jamón cocido, lechuga, tomate, huevo (opcional al plato)
+3. MILANESA DE RES: mozarella, jamón cocido, lechuga, tomate, huevo
+4. TOSTADOS: jamon cocido, tybo
+
+
+PAPAS FRITAS CON SALSAS: 
+1- CHEDDAR: cheddar, panceta 
+2- VERDEO: crema, verdeo
+
+
+POSTRES: 
+1-IMPERIAL
+2- TORTA BOMBON
+3-FLAN
+4-PALITO BOMBON
+5-TRES GUSTOS
+6-TACITA (CONSULTAR GUSTOS)
+
+
+
+Tragos 
+
+Mojito
+Caipiroska
+Destornillador
+Gin tonic
+Melón con speed
+Frutilla con speed
+Vodka con speed
+Fernet 
+Gancia 
+Gancia batido
+Campari
+Whisky
+Whiscola
+Daikiri
+Margarita
+Tequila
+Baileys
+Baileys frozen
+Piña colada frozen
