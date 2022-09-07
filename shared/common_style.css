@@ -23,31 +23,32 @@
         align-items: center;
         height: 5rem;
         position: static;
-        padding-top: 1rem;
+        padding-top: 0.5rem;
     }
 
-    .header a{
+    .back-button{
         text-decoration: none;
         height: fit-content;
-        justify-self: center;
+        justify-self: left;
         color: aliceblue;
         font-size: 1.5rem;
+        padding: 1rem 1rem;
+        align-items: center;
     }
 
     .header-title{
-        display: flex;
-    }
-
-    .header-title h2{
         height: fit-content;
         justify-self: center;
         color: aliceblue;
         font-size: 3rem ;
         margin-top: 1rem;
+        text-align: center;
     }
 
-    .header-title img{
+    .header-img{
         height:5rem;
+        padding-right: 1rem;
+        justify-self: right;
     }
 
     .common-ul{
