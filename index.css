@@ -58,6 +58,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         font-family: Vaoodu2rf;
+        overflow: hidden;
     }
 
     .introduction {
