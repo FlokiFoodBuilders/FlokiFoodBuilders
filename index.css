@@ -4,16 +4,17 @@
 
 @font-face{ 
     font-family:Vaoodu2rf;
-    src: url(../Fuente_Vaoodu2rf/vaudoo2RF.ttf)}
+    src: url(../Fuente_Vaoodu2rf/vaudoo2RF.ttf)
+}
 
 body{
     font-family: Vaoodu2rf;
     background: linear-gradient(rgba(1, 1, 2, 0.3), rgba(1, 1, 2, 0.3)),url(../images/background.gif);
     background-repeat: no-repeat;
-    /* width: 100vh; */
-    /* height: 100vh; */
     background-size: cover;
     background-position: center;
+    /* width: 100vh; */
+    /* height: 100vh; */
 }
 
 .introduction {

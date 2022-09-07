@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Vaoodu2rf;
+    src: url(../Fuente_Vaoodu2rf/vaudoo2RF.ttf)
+}
+
+*{
+    font-family: Vaoodu2rf;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        background-image: url(../images/Backgrounds/brown.jpg);
+        background-size: cover;
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        height: 5rem;
+        position: static;
+        padding-top: 1rem;
+    }
+
+    .header a{
+        text-decoration: none;
+        height: fit-content;
+        justify-self: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+
+    .header-title{
+        display: flex;
+    }
+
+    .header-title h2{
+        height: fit-content;
+        justify-self: center;
+        color: aliceblue;
+        font-size: 3rem ;
+        margin-top: 1rem;
+    }
+
+    .header-title img{
+        height:5rem;
+    }
+
+    .common-ul{
+        display: flexbox;
+        list-style-type: none;
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .common-li{
+        text-align: left;
+        height: 5rem;
+        margin-top: 2rem;
+    }
+
+    .common-h2{
+        color: aliceblue;
+        padding-left: 4rem;
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

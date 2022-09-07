@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Vaoodu2rf;
+    src: url(../Fuente_Vaoodu2rf/vaudoo2RF.ttf)
+}
+
+*{
+    font-family: Vaoodu2rf;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),url(../images/wallpaperbetter.com_1366x768.jpg); 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.header h1{
+    color: #ffffff;
+    font-size: 6rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+.header img{
+    height: 12rem;
+}
+
+.nav{
+    text-align: center;
+}
+
+.nav li{
+    padding-top: 3rem ;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+
+@media only screen and (max-width: 500px){
+
+    body {
+            background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)), url(../images/Backgrounds/Background2.jpg);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+    
+        .header h1 {
+            color: #ffffff;
+            font-size: 4rem;
+            padding-top: 3rem;
+            padding-left: 1rem;
+        }
+    
+        .header img {
+            height: 7rem;
+        }
+    
+        .nav {
+            text-align: center;
+        }
+    
+        .nav li {
+            padding-top: 3rem;
+        }
+    
+        .nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 3rem;
+        }
+
+}
+
+
