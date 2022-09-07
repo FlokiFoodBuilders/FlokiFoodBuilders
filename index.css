@@ -9,7 +9,7 @@
 
 body{
     font-family: Vaoodu2rf;
-    background: linear-gradient(rgba(1, 1, 2, 0.3), rgba(1, 1, 2, 0.3)),url(../images/background.gif);
+    background: linear-gradient(rgba(1, 1, 2, 0.3), rgba(1, 1, 2, 0.3)),url(images/Backgrounds/background.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,7 +53,7 @@ body{
 @media only screen and (max-width: 500px){
     
     body{
-        background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),url(../images/Background2.jpg); 
+        background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),url(images/Backgrounds/red.jpg); 
         background-position: center; 
         background-repeat: no-repeat;
         background-size: cover;
