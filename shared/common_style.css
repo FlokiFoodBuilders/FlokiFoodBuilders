@@ -14,8 +14,9 @@
  body {
     background-image: url(../images/Backgrounds/brown.jpg);
     background-size: cover;
+    position: static;
     overflow: hidden;
-    height: 100vh;
+    max-height: 100vh;
  }
 
 @media only screen and (max-width: 500px) {
