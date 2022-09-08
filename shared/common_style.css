@@ -51,13 +51,7 @@
         font-size: 2rem ;
         margin-top: 1rem;
     }
-
-    .header-img{
-        height:3rem;
-        padding-right: 1rem;
-        justify-self: right;
-    }
-
+    
     .common-ul{
         list-style-type: none;
         max-height: 100vh;
