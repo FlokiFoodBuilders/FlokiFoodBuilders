@@ -13,6 +13,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    overflow: hidden;
     /* width: 100vh; */
     /* height: 100vh; */
 }
@@ -22,74 +24,33 @@ body{
     display: block;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
-.introduction a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
 
-.introduction img{
-    height: 40vh;
-    margin-top: 10%;
-}
-
-.introduction h1 {
-    font-size: 12vh;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #ffffff;
-}
-
-.introduction h2 {
-    font-size: 7vh;
-    margin-top: -7;
-    margin-bottom: 0;
-    color: #ffffff;
+.introduction-img{
+    height: 60rem;
+    padding-top: 3rem;
 }
 
 
 @media only screen and (max-width: 500px){
     
-    body{
-        background: linear-gradient(rgba(1, 1, 2, 0.7), rgba(1, 1, 2, 0.7)),url(images/Backgrounds/red.jpg); 
-        background-position: center; 
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: Vaoodu2rf;
-        overflow: hidden;
+    body {
+        background-image: url(images/Backgrounds/Black_intro.jpg);
+        /* width: 100vh; */
+        /* height: 100vh; */
     }
 
     .introduction {
         text-align: center;
+        display: block;
         align-items: center;
         justify-content: center;
-        margin-top: 0%;
     }
 
-    .introduction img{
-        padding-top: 10%;
-        max-height: 30%; 
-        padding-bottom: 4vh;
-    }
-
-    .introduction a{
-        text-decoration: none;
-    }
-
-    .introduction h1{
-        font-size: 7vh; 
-        margin-top: 0;
-        margin-bottom: 0;
-        color: #ffffff;
-    }
-
-    .introduction h2{
-        font-size: 5vh;
-        margin-top: -7;
-        margin-bottom: 0;
-        color: #ffffff;
+    .introduction-img {
+        height:  40rem;
+        padding-top: 5rem;
     }
 
 }

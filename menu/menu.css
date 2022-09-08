@@ -43,9 +43,16 @@ body{
     padding-top: 3rem ;
 }
 
-.nav-a{
+a{
     text-decoration: none;
     color: #ffffff;
+}
+
+.footer{
+    visibility: hidden;
+}
+
+.nav-a{
     font-size: 4rem;
 }
 
@@ -91,6 +98,18 @@ body{
         font-size: 3rem;
     }
 
+    .footer{
+        display: flex;
+        visibility: visible;    
+    }
+
+    .footer i{
+        color: #ffffff;
+        padding-left: 1rem;
+        padding-top: 20%;
+        font-size: 3rem;
+    }
+   
 }
 
 

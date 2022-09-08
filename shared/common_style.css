@@ -11,18 +11,23 @@
     user-select: none;
 }
 
+ body {
+    background-image: url(../images/Backgrounds/brown.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+ }
+
 @media only screen and (max-width: 500px) {
     body{
         background-image: url(../images/Backgrounds/brown.jpg);
-        background-size: cover;
-    }
+    }    
 
     .header{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         align-items: center;
-        height: 5rem;
-        position: static;
+        position: static ;
         padding-top: 0.5rem;
     }
 
@@ -52,23 +57,40 @@
     }
 
     .common-ul{
-        display: flexbox;
         list-style-type: none;
         max-height: 100vh;
         overflow-y: auto;
     }
 
+    .header i{
+        font-size: 3.5rem;
+    }
+
+    .common-ul a{
+        text-decoration: none;
+    }
+    
     .common-li{
-        text-align: left;
-        height: 5rem;
-        margin-top: 2rem;
+        padding-left: 0.4rem;
+        background-color: rgba(75, 72, 72, 0.562);  
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        border-radius: 1rem;
     }
 
     .common-h2{
         color: aliceblue;
-        padding-left: 4rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        text-align: left;
         font-size: 2rem;
+    }
+
+    .common-h3 {
+        color: aliceblue;
+        padding-left: 1rem;
+        font-size: 1rem;
     }
 
 }
