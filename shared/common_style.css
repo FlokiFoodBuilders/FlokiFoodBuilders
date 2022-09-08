@@ -47,13 +47,13 @@
         height: fit-content;
         justify-self: center;
         color: aliceblue;
-        font-size: 3rem ;
+        font-size: 2rem ;
         margin-top: 1rem;
         text-align: center;
     }
 
     .header-img{
-        height:5rem;
+        height:3rem;
         padding-right: 1rem;
         justify-self: right;
     }
@@ -65,7 +65,7 @@
     }
 
     .header i{
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
 
     .common-ul a{
@@ -86,7 +86,7 @@
         padding-top: 1rem;
         padding-left: 1rem;
         text-align: left;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .common-h3 {
