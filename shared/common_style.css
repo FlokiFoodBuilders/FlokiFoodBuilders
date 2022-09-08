@@ -32,7 +32,7 @@
         position: static ;
         padding-top: 0.5rem;
     }
-
+    
     .back-button{
         text-decoration: none;
         height: fit-content;
@@ -42,14 +42,14 @@
         padding: 1rem 1rem;
         align-items: center;
     }
-
+    
     .header-title{
+        text-align: right;
         height: fit-content;
         justify-self: center;
         color: aliceblue;
         font-size: 2rem ;
         margin-top: 1rem;
-        text-align: center;
     }
 
     .header-img{
