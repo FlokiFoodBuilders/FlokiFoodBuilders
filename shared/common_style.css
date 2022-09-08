@@ -3,6 +3,16 @@
     src: url(../Fuente_Vaoodu2rf/vaudoo2RF.ttf)
 }
 
+@font-face {
+    font-family: Nordic;
+    src: url(../Fuentre_Nordic/Nordic.ttf);
+}
+
+@font-face {
+    font-family: viking;
+    src: url(../Fuente_Viking/Viking.ttf);
+}
+
 *{
     font-family: Vaoodu2rf;
     -webkit-tap-highlight-color: transparent;
@@ -27,7 +37,7 @@
 
     .header{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(1,1fr);
         align-items: center;
         position: static ;
         padding-top: 0.5rem;
@@ -39,7 +49,7 @@
         justify-self: left;
         color: aliceblue;
         font-size: 2rem;
-        padding: 1rem 1rem;
+        padding: 0rem 1rem;
         align-items: center;
     }
     
@@ -48,8 +58,7 @@
         height: fit-content;
         justify-self: center;
         color: aliceblue;
-        font-size: 2rem ;
-        margin-top: 1rem;
+        font-size: 3rem ;
     }
     
 
@@ -79,10 +88,12 @@
         text-align: left;
         font-size: 1.5rem;
     }
-
+    
     .common-h3 {
+        font-family: viking;
         color: aliceblue;
         padding-left: 1rem;
+        padding-bottom: 1rem;
         font-size: 1rem;
     }
 
