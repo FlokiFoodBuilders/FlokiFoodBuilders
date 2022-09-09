@@ -27,7 +27,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     display: grid;
-    grid-template-rows: 7rem 1fr 15rem;
+    grid-template-rows: 7rem 1fr 5rem;
     overflow-y: hidden;
 }
 
@@ -76,18 +76,19 @@ footer {
     overflow-y: visible;
 }
 
-
-@media only screen and (max-height: 500px) {
+@media only screen and (max-height: 850px){
     body{
-        grid-template-rows: 7rem 1fr rem;
+        grid-template-rows: 7rem 1fr 23rem;
     }
 }
 
-@media only screen and (max-height: 100px) {
-
+@media only screen and (max-height: 900px){
+    body{
+        grid-template-rows: 7rem 1fr 27rem;
+    }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
 
     body {
         background-image: url(../images/Backgrounds/brown.jpg);
@@ -119,7 +120,6 @@ footer {
         justify-self: center;
         color: aliceblue;
         font-size: 2.5rem;
-        border-color: red;
     }
 
     .common-ul {
