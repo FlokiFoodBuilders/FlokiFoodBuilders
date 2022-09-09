@@ -81,10 +81,21 @@ footer {
         grid-template-rows: 7rem 1fr 23rem;
     }
 }
+@media only screen and (max-height: 850px){
+    body{
+        grid-template-rows: 7rem 1fr 23rem;
+    }
+}
 
 @media only screen and (max-height: 900px){
     body{
         grid-template-rows: 7rem 1fr 27rem;
+    }
+}
+
+@media only screen and (min-height: 300px){
+    body{
+        grid-template-rows: 7rem 1fr 1rem;
     }
 }
 
@@ -143,6 +154,8 @@ footer {
         margin-left: 1.5rem;
         margin-right: 1rem;
         border-radius: 1rem 3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         text-align: left;
     }
 
