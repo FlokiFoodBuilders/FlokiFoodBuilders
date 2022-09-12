@@ -13,8 +13,13 @@
     src: url(../Fuente_Viking/Viking.ttf);
 }
 
+@font-face {
+    font-family: viking2;
+    src: url(../Fuente_pr_viking/PR\ Viking.ttf);
+}
+
 * {
-    font-family: Vaoodu2rf;
+    font-family: viking2;
     -webkit-tap-highlight-color: transparent;
     margin: 0;
     padding: 0;
@@ -209,7 +214,7 @@ footer {
     }
 
     .common-h3 {
-        font-family: viking;
+        font-family: viking2;
         color: aliceblue;
         padding-left: 1rem;
         padding-bottom: 1rem;
