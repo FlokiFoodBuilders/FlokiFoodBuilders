@@ -1,25 +1,34 @@
 @font-face {
     font-family: Vaoodu2rf;
-    src: url(../Fuente_Vaoodu2rf/vaudoo2RF.ttf)
+    src: url(../Fonts/Fuente_Vaoodu2rf/vaudoo2RF.ttf)
 }
 
 @font-face {
     font-family: Nordic;
-    src: url(../Fuentre_Nordic/Nordic.ttf);
+    src: url(../Fonts/Fuentre_Nordic/Nordic.ttf);
 }
 
 @font-face {
     font-family: viking;
-    src: url(../Fuente_Viking/Viking.ttf);
+    src: url(../Fonts/Fuente_Viking/Viking.ttf);
 }
 
 @font-face {
     font-family: viking2;
-    src: url(../Fuente_pr_viking/PR\ Viking.ttf);
+    src: url(../Fonts/Fuente_pr_viking/viking2.ttf);
+}
+
+@font-face {
+    font-family: racing;
+    src: url(../Fonts/Fuente_racing/Racing.ttf);
+}
+
+@font-face {
+    font-family:tapestry ;
+    src: url(../Fonts/Fuente_tapestry/Tapestry-Regular.ttf);
 }
 
 * {
-    font-family: viking2;
     -webkit-tap-highlight-color: transparent;
     margin: 0;
     padding: 0;
@@ -34,6 +43,7 @@ body {
     display: grid;
     grid-template-rows: 7rem 1fr 5rem;
     overflow-y: hidden;
+    min-height: 100vh;
 }
 
 header {
@@ -69,16 +79,6 @@ main > * {
 a {
     text-decoration: none;
     color: #ffffff;
-}
-
-footer {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 7rem;
-    color: #ffffff;
-    overflow-y: visible;
 }
 
 @media only screen and (max-height: 850px){
@@ -146,10 +146,6 @@ footer {
 
 @media only screen and (max-width: 500px){
 
-    body {
-        background-image: url(../images/Backgrounds/brown.jpg);
-    }
-
     header {
         display: grid;
         grid-template-rows: 1fr 2fr;
@@ -169,6 +165,7 @@ footer {
     }
 
     .header-title {
+        font-family: Vaoodu2rf;
         text-align: right;
         padding-top: 1rem;
         align-self: baseline;
@@ -205,16 +202,16 @@ footer {
     }
 
     .common-h2 {
-        font-family: viking;
+        font-family:tapestry ;
         color: aliceblue;
         padding-top: 0.5rem;
         padding-left: 1rem;
         text-align: left;
-        font-size: 2rem;
+        font-size: 1,9rem;
     }
 
     .common-h3 {
-        font-family: viking2;
+        font-family:'Courier New', Courier, monospace;
         color: aliceblue;
         padding-left: 1rem;
         padding-bottom: 1rem;
