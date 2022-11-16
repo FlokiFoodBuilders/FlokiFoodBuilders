@@ -39,20 +39,20 @@
 
 body {
     background-image: url(../images/Backgrounds/brown.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 7rem 1fr 5rem;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+    /* display: grid; */
+    /* grid-template-rows: 7rem 1fr 5rem; */
     font-family: Vaoodu2rf;
-    overflow-y: hidden;
-    min-height: 100vh;
+    /* overflow-y: hidden; */
+    /* min-height: 100vh; */
 }
 
-/* header {
-    display: flex;
-    align-items: center;
-} */
+header {
+    display: grid;
+    justify-items: start;
+}
 
 /* header h1 {
     font-size: 10rem;
@@ -67,8 +67,8 @@ header img {
 main {
     display: flex;
     flex-direction: column;
-    height: 100%;
     text-align: center;
+    /* height: 100%; */
     /* overflow-y: hidden; */
     /* align-self: baseline; */
 }
@@ -81,7 +81,7 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (max-height: 850px){
+/* @media only screen and (max-height: 850px){
     body{
         grid-template-rows: 7rem 1fr 23rem;
     }
@@ -222,4 +222,4 @@ a {
     footer i {
         font-size: 3rem;
     }
-}
+} */
