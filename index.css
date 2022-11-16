@@ -39,7 +39,8 @@ body{
 @media only screen and (max-width: 500px){
     
     body {
-        background-image: url(images/Backgrounds/Black_intro.jpg);
+        /* background-image: url(images/Backgrounds/Black_intro.jpg); */
+        background-position-y: -10vh;
     }
 
     .introduction {
