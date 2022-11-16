@@ -13,7 +13,8 @@
 
 body{
     font-family: Vaoodu2rf;
-    background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.3)),url(images/Backgrounds/background.gif);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.3)),url(images/Backgrounds/background.gif); */
+    background: url(images/Backgrounds/storm.gif);
     background-size: cover;
     height: 100vh;
     overflow-y: hidden;
