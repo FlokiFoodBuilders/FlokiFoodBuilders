@@ -35,6 +35,7 @@
     text-decoration: none;
     color: #ffffff;
     list-style:none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
