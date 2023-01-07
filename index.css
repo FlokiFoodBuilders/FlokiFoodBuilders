@@ -13,33 +13,34 @@
 
 body{
     font-family: Vaoodu2rf;
-    background: linear-gradient(rgba(1, 1, 2, 0.3), rgba(1, 1, 2, 0.3)),url(images/Backgrounds/background.gif);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.3)),url(images/Backgrounds/background.gif); */
+    background: url(images/Backgrounds/storm.gif);
     background-size: cover;
     height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
     /* width: 100vh; */
-    /* height: 100vh; */
+    /* height: 100vh; */    
 }
 
 .introduction {
     text-align: center;
-    display: block;
-    align-items: center;
-    justify-content: center;
+    /* display: block; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 
 .introduction-img{
-    height: 60rem;
-    padding-top: 3rem;
+    height: 120vh;
 }
 
 
 @media only screen and (max-width: 500px){
     
     body {
-        background-image: url(images/Backgrounds/Black_intro.jpg);
+        /* background-image: url(images/Backgrounds/Black_intro.jpg); */
+        background-position-y: -10vh;
     }
 
     .introduction {
